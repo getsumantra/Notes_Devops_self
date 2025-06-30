@@ -1,0 +1,40 @@
+====================================================================================================
+Introduction:-
+
+My name is Sumantra Upadhyay 
+I belongs to Jaunpur Uttarpradesh
+I have completed my B.tech in computer science
+
+Initially i was started as IT support engineer where my key responsibilities are 
+1. Providing technical support for hardware, software, and networking issues, along with managing user accounts through Active Directory.
+2. Performing system maintenance, monitoring performance, and ensuring minimal downtime for end-users.
+
+
+"Later, I transitioned into the role of an Azure Cloud Support Engineer, where I was responsible for 
+1. Managing and troubleshooting Azure services like Virtual Machines, Resource Groups, Azure AD, and Storage Accounts.
+2. Assisting clients with deployment issues, resource optimization, and identity/access management within the Azure cloud environment.
+
+For the last 4 years, I have been working as a DevOps Engineer where I have been responsible for building, automating, and maintaining CI/CD pipelines, 
+infrastructure provisioning, and ensuring smooth deployment processes in both development and production environments."
+
+
+Key Responsibilities:
+
+CI/CD Pipelines:
+Designed and implemented CI/CD pipelines using tools like Jenkins, GitHub Actions, and Azure DevOps, enabling automated builds, tests, and deployments.
+
+Infrastructure as Code (IaC):
+Used Terraform and ARM templates to provision and manage cloud infrastructure on Microsoft Azure, ensuring consistency and scalability.
+
+Containerization & Orchestration:
+Deployed and managed applications using Docker and Kubernetes (AKS), handling pod scaling, rolling updates, and service discovery.
+
+Monitoring & Logging:
+Implemented centralized logging and monitoring using Prometheus, Grafana, and Azure Monitor, to proactively identify and resolve system issues.
+
+Configuration Management & Automation:
+Used Ansible and Shell scripting to automate server provisioning, configuration updates, and application deployments.
+
+Collaboration & Dev Practices:
+Worked closely with development teams to integrate DevOps practices, conduct code reviews, and ensure smooth delivery from dev to production.
+

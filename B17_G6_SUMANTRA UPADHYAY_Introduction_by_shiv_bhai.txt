@@ -1,0 +1,222 @@
+-----------------------------------------------------------------------------
+Interview
+
+1. Name , Jb interviewer aapka name bol de - As you know My name is Shiv Shrivastava / 
+2. Belongs to, I belongs to , Hometowm
+3. Education , I have completed my Btech, in stream of CS, completed in year of 2017
+4. Work Experience ------------ aage ky aquestion karu
+   Intially, I was started with Reliance as a IT Support Engineer where my key responsibilities are 2 point
+   Then, I was promoted as a Cloud support engineer, 2 point,
+   and then I was promoted as a Devops engineer in 2021 in same organization and currently working on the same job role -------key Responsibilities------jitni max ho
+
++++++++++++++++++++++++++++++++++
+
+5. Current Project ------------ aage ky aquestion karu
+
+---------Silent
+
+6. Hobbies, Acheivents-Personal/Work, Family Details 
+
+
+-----------------------------------------------------------------------------
+Project Use Case
+
+Introduction:
+
+## **Project Title:**
+
+**Automated Backhaul Network Infrastructure Deployment for E-Node B Integration Using Azure and DevOps**
+
+---
+
+## **Project Overview:**
+
+As a Devops Engineer responsible for maintaining the backhaul network, the project simulates automating the deployment of virtual network infrastructure in Azure to connect E Node B (tower) sites to the Core Network. This infrastructure enables secure, scalable, and automated deployment and monitoring of virtualized telecom backhaul components.
+
+---
+
+## **Objectives:**
+
+* Provision telecom backhaul simulation infrastructure in Azure using Terraform.
+* Automate deployment pipelines using Git and Azure DevOps.
+* Simulate E Node B and Core connectivity using VNets and Azure Network resources.
+* Enable infrastructure as code and version control for reproducibility and disaster recovery.
+
+---
+
+## **Tech Stack:**
+
+* **Cloud Provider:** Azure
+* **IaC Tool:** Terraform
+* **CI/CD:** Azure DevOps Pipelines
+* **Source Control:** GitHub or Azure Repos
+* **Monitoring:** Azure Monitor, Network Watcher
+
+---
+
+## **Project Components:**
+
+### 1. **Network Architecture:**
+
+* **Core Network VNet** – Simulates the mobile core network.
+* **ENodeB VNet** – Represents the tower site locations.
+* **VPN Gateway / ExpressRoute Gateway** – For simulating MPLS or leased line connectivity between Core and Tower.
+* **Network Security Groups (NSGs)** – To enforce traffic rules between VNets.
+
+### 2. **Terraform Modules:**
+
+* `core_network/` – Creates the core VNet, subnets, and VMs (Core servers).
+* `enodeb_site/` – Deploys VNet, subnets, jumpbox VM for tower-side simulation.
+* `shared_resources/` – Includes monitoring, logging, and gateway resources.
+
+### 3. **CI/CD Flow (Azure DevOps):**
+
+* **Pipeline 1: Terraform Plan & Apply**
+
+  * Triggered on `main` branch update.
+  * Runs `terraform init`, `plan`, and `apply`.
+* **Pipeline 2: Infra Drift Detection**
+
+  * Scheduled pipeline to run `terraform plan` and compare with deployed infra.
+* **Pipeline 3: Destroy Pipeline**
+
+  * Manually triggered to clean up resources when no longer needed.
+
+---
+
+## **Sample Use Case Workflow:**
+
+1. **Commit Changes to GitHub:** Modify Terraform code for a new E Node B deployment.
+2. **Azure DevOps Pipeline Triggered:** Validates and applies infrastructure updates.
+3. **Infrastructure Deployed:** Azure VNets and Gateways provisioned; connectivity established.
+4. **Monitoring Enabled:** Logs and alerts configured for connection loss or packet drop.
+5. **Rollback Capability:** Versioned code enables environment rollback.
+
+---
+
+## **Benefits:**
+
+* **Automation:** Reduces manual provisioning time.
+* **Reusability:** Use of Terraform modules allows multiple tower deployments.
+* **Monitoring:** Quick identification of connectivity loss.
+* **Security:** NSGs and audit logging through Azure Policy.
+
+---
+
+## **Interview Talking Points:**
+
+* How you translated real-world telecom challenges into cloud-native architecture.
+* Integration of DevOps principles (automation, IaC, monitoring) into a telecom use case.
+* Real-time problem-solving examples like network loss detection, rollback, or scaling.
+* Skills in Azure infrastructure provisioning and managing it via Git-based CI/CD workflows.
+
+----------------------------------------------------------------------------------------------------------
+
+
+Certainly! Here’s a well-structured **project summary** you can use for interview purposes — tailored to your telecom engineering background and showcasing your DevOps skills using Azure, Terraform, and Git:
+
+---
+
+Interview mai esa bolna hai....................................
+## **Project Summary for Interview:**
+
+**Project Title:**
+**Automated Backhaul Network Infrastructure Deployment Using Azure and DevOps**
+
+## **Project Overview:**
+
+As a Devops Engineer responsible for maintaining the backhaul network, the project simulates automating the deployment of virtual network infrastructure in Azure to connect E Node B (tower) sites to the Core Network. This infrastructure enables secure, scalable, and automated deployment and monitoring of virtualized telecom backhaul components.
+
+
+**Role:**
+DevOps Engineer / Telecom Engineer (Project-based Role)
+
+**Summary:**
+In my current role as a DevOps Engineer, I was responsible for maintaining the backhaul network between the core telecom servers and the E Node B (tower end). To enhance the reliability, scalability, and automation of this process, I designed and implemented a cloud-based infrastructure automation project using Azure, Terraform, and DevOps principles.
+
+1. Infra Deployment on Azure Cloud + Provisioning using the IaC tool Terraform:
+The primary goal of the project was to simulate and automate the provisioning of virtualized telecom backhaul infrastructure in Microsoft Azure. The solution modeled two critical zones of a telecom network: the **Core Network** and the **Tower (ENodeB)** end. These were deployed using **Terraform modules** to create Virtual Networks (VNets), subnets, virtual machines (to emulate network elements), and secure connectivity via **Azure VPN Gateways** and **Network Security Groups**.
+
+2. Git + Pipeline
+To manage the infrastructure lifecycle, I used **Git** for source control and **Azure DevOps Pipelines** to automate Terraform deployments. The pipeline was designed to run on every commit to the `main` branch, ensuring Infrastructure as Code (IaC) was validated, applied, and version-controlled. This CI/CD process allowed for consistent environment deployments, reduced human error, and faster tower rollout simulations.
+
+3. Containerization with Docker
+To further optimize the telecom simulation, I containerized core components such as network emulators, logging agents, and test utilities using Docker. These Docker images were built and pushed to Azure Container Registry (ACR) and deployed on VMs or Azure Container Instances for lightweight, consistent, and rapid deployment.
+
+This enabled:
+Faster testing and redeployment of network agents
+Isolation of services like packet analyzers and network simulation tools
+Version-controlled container images for reproducibility
+
+4. Monitoring:
+I also implemented **Azure Monitor** and **Network Watcher** to gain visibility into packet flows, latency issues, and link drops—essential for backhaul troubleshooting. Logging and alerting were configured to immediately notify the team in case of any simulated backhaul disruption.
+
+
+
+**Key Responsibilities:**
+
+* Designed Terraform modules to deploy Core and E Node B network zones.
+* Set up VPN Gateway connectivity to simulate secure MPLS backhaul.
+* Integrated Git with Azure DevOps for automated pipeline-driven infrastructure provisioning.
+* Configured monitoring and alerting for network anomalies using Azure tools.
+* Documented and version-controlled the full lifecycle using GitHub.
+
+**Tools & Technologies:**
+
+* **Azure** (VNet, VM, VPN Gateway, NSG, Monitor, Network Watcher)
+* **Terraform** (Modular IaC for repeatable deployments)
+* **Git & GitHub** (Version control)
+* **Azure DevOps** (CI/CD Pipelines for automation)
+
+**Outcome:**
+This project helped bridge traditional telecom infrastructure practices with modern cloud-native DevOps methodologies. It not only reduced the deployment time for network sites but also introduced reliability, observability, and version-controlled infrastructure to the telecom network simulation process.
+
+-----------------------------------------------------------------------------------------------------------
+
+
+DevOps Life Cycle - IMAGE DEKH LENA
+
+PLAN
+DEVELOP / CODE
+BUILD
+TEST
+RELEASE
+DEPLOY
+MONITOR
+
+--------------------------------------------------------------------------
+
+ADO Portal
+
+OVERVIEW
+BOARDS
+REPOS
+PIPELINES
+TEST PLANS
+ARTIFACTS
+PROJECT SETTINGS
+
+--------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
