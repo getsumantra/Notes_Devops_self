@@ -17,6 +17,10 @@ I also work with service connections, environment approvals, and pipeline templa
 Apart from this, I’m also familiar with Terraform security and compliance tools like TFSec, Checkov,
  and TFLint for static code analysis, and I monitor infrastructure health using tools like Prometheus and Grafana.
 
+Apart from this, I also integrate security and compliance checks within the CI/CD pipeline using static code analysis tools like TFSec, 
+Checkov, and TFLint for Terraform. I also implement infrastructure monitoring as part of post-deployment validation using Prometheus and Grafana
+to ensure system health and reliability.
+
 My experience spans across managing both on-prem and cloud infrastructure, and I always focus on automating repetitive tasks, 
 improving reliability, and maintaining infrastructure as code in a version-controlled and auditable manner.
 
