@@ -7,7 +7,7 @@ In my current role, I primarily work with Infrastructure as Code (IaC) using Ter
 for provisioning cloud infrastructure. I have a strong command over writing and managing Terraform configurations using best practices such as input variables, 
 outputs, workspaces, and remote backends.
 
-I'm proficient in version control systems like Git, and I use GitHub extensively for source code management and collaboration. 
+I have handson exp in version control systems like Git, and I use GitHub extensively for source code management and collaboration. 
 I’m familiar with branching strategies, pull requests, code reviews, and managing repositories in an enterprise setup.
 
 On the CI/CD side, I have hands-on experience with Azure DevOps Pipelines and GitHub Actions, 
@@ -16,6 +16,10 @@ I also work with service connections, environment approvals, and pipeline templa
 
 Apart from this, I’m also familiar with Terraform security and compliance tools like TFSec, Checkov,
  and TFLint for static code analysis, and I monitor infrastructure health using tools like Prometheus and Grafana.
+
+Apart from this, I also integrate security and compliance checks within the CI/CD pipeline using static code analysis tools like TFSec, 
+Checkov, and TFLint for Terraform. I also implement infrastructure monitoring as part of post-deployment validation using Prometheus and Grafana
+to ensure system health and reliability.
 
 My experience spans across managing both on-prem and cloud infrastructure, and I always focus on automating repetitive tasks, 
 improving reliability, and maintaining infrastructure as code in a version-controlled and auditable manner.

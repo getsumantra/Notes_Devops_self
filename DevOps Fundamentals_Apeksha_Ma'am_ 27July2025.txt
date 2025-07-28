@@ -1,0 +1,115 @@
+Phase1: Foundations -----------------------------------------------------
+
+1. Basic Understandings: What to Learn?
+
+~ SDLC
+~ Agile and Scrum Fundamentals
+~ What is DevOps? Dev vs Ops, CICD, Automation
+
+TOOLS: Jira
+
+2 . OS and Networking - What to Learn?
+
+` Linux Basics (File System, Permissions, Scripting-Shell/Bash)
+` Basic Networking (DNS, HTTP/HTTPS, Ports, Firewall)
+ 
+3. Programming and Scripting: What to Learn?
+
+~ Scripting - Bash, Python, PowerShell
+~ Basic Programming Concepts 
+
+TOOLS: VSCode, GitHub, Co-Pilot
+
+
+Phase2: Core DevOps Skills -----------------------------------------------------
+
+
+4. Version Control - What to Learn?
+
+~ Git Basics (Clone, Commit, Branch, Merge)
+~ Git Workflows (Trunk Based, Git Flow)
+
+TOOLS: GitHub, GitLab, Bitbucket, Azure Repo(ADO)
+
+5. Continuous Integration(CI) - What to Learn?
+
+~ Writing CI Pipelines
+~ Automating Test, Linting, Build
+
+TOOLS: Jenkins, GitHub Actions, GitLab CI, Azure DevOps Pipelines
+
+6. Continues Deployment(CD) - What to Learn?
+
+~ Blue/Green, Rolling Deployments
+~ Deployment Strategy and Rollback Mechanism
+
+TOOLS: ArgoCD, Spinnaker, Harness, Azure DevOps
+
+7. Artifact Management - What to Learn?
+
+~ jfrog Artifactory
+~ Nexus
+~ GitHub Packages
+
+Phase 3: Cloud and Infrastructure as Code-----------------------------------------------------
+
+8. Cloud Platform - What to Learn?
+
+~ What to Learn: Basics of Compute, Storage, Networking in Cloud
+~ Primary Clouds: AWS, Azure, GCP
+
+9. Infrastructure as Code (IaC) - What to Learn?
+
+~ What to Learn: Define infrastructure using coding
+~ Write Plan and Apply code safely
+
+TOOLS: Terraform, Azure Bicep, AWS cloud formation
+
+10. Configuration Management - What to Learn?
+
+~ What to Learn: Automate OS level configuration
+
+TOOLS: Ansible, Puppet/Chef
+
+Phase 4: Containerization and Orchestration-----------------------------------------------------
+
+11. Containers - What to Learn?
+
+~ Docker Basics - Images, containers, volumes, networking, Docker file
+
+TOOLS: Docker CLI, Docker Compose
+
+12. Container Orchestration - What to Learn?
+
+~ Kubernetes Architecture (Pods, Deployment, Services)
+~ HELM Charts, kustomize
+
+TOOLS: K8s (minikube, EKS, AKS, GKE)
+       HELM (package manger for K8s)
+
+-----------------------------------------------------
+
+Phase 5: Monitoring, Logging and Security
+
+13. Monitoring and Observability - What to Learn?
+
+~ What to Lean: Metrics, Tracing and Alerts
+
+TOOLS: Prometheus + Grafana, New relic, Datadog, Azure Monitor, Negios
+
+14. Logging - What to Learn?
+
+~ What to Lean: Centralized log management
+
+TOOLS: ELK Stack (elasticsearch, logs stash, kibana)
+
+15. DevSecOps and Compliance - What to Learn?
+
+~ What to Lean: Security integration in Pipelines
+~ Static Code analysis, Secret Scanning
+
+TOOLS: SonarQube, Trivy, aquasec, HashiCorp Vault, Azure Security Center, AWS guardduty
+
+Extras/Certification: Linux, Cloud [AZ-900 and AZ-104], ADO [Az-400] and K8s [CKA], Associate Terraform
+
+-----------------------------------------------------
