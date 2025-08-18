@@ -1,0 +1,125 @@
+Daily Targets
+
+(25-Feb-2025)
+A- Create RG using Copilot on VS code 																P1
+B- Revision of previous classes																		P2
+C- LinkedIN post																					P3
+D- Dhara  aatachakki purchasing																		P4
+
+(27-Feb-2025)
+A- Create RG using Copilot on VS code 																P1
+B- Revision of previous classes																		P2
+C- LinkedIN post																					P3
+D- Dhara  aatachakki purchasing																		P4
+E- Call to the group members atlear three to 4 person												P5
+
+(03-Mar-2025)
+A- Create RG using Copilot on VS code 																P1
+B- Revision of previous classes																		P2
+C- LinkedIN post																					P3      Done
+D- Dhara  aatachakki purchasing																		P4		Done
+E- Call to the group members atlear three to 4 person												P5		
+
+(03-Mar-2025)
+A- Need to read and understand terraform notes from the Github										P1		
+B- Needs to understand claas through the diagram & recall it										P2		
+C- Linkdin post required																			P3		Done	
+D- call to group member one member atleast															P4		Done
+
+(06-Mar-2025)
+A- Terraform topic needs to be cover with handson prcatice											P1		Done	
+B- Terraform assignments																			P2		Done
+C- Crash cource topic cover																			P3		Done
+D- Linkedin post																					P4		
+E- Call to group memeber ony by one																	P5		Done
+E- Subnetting reading from internet																	P6	
+
+(06-Mar-2025)
+A- Docker installation																				P1
+B- Docker handson practice																			P2
+C- Linkedin post																					P4		
+D- Call to group memeber ony by one																	P5		Done	
+E- Subnetting reading from internet																	P6		
+
+(10-Mar-2025)
+A- Terraform blocks 																				P1
+B- Terraform previous class with handson															P2
+C- Englisn learning																					P3
+D- Previous class detailed study																	P4
+E- Linkdin post	 																					P5
+
+(12-Mar-2025)
+A- Terraform documents reading required																P1    	Done
+B- Generate command for azure terraform RG, Storage account, VM										P2		Done
+C- English learning from the videos & movies														P3		will do it later
+D- Linkdin post & make connections																	P4		Done
+E- Revision on previous class (AZ-CLI)																P5		Done
+
+(18-Mar-2025)
+A- Terraform implicit & explicit self practice														P1 		Done
+B- Screen sharing & teaching required in the group at evening										P2
+C- Attend evening group call																		P3
+D- Linkdin one post and increase connections														P4
+E- English learning																					P5
+E- prepare notes on Terraform																		P6
+
+(20-Mar-2025)
+A- What is .tf file in terraform (chat gpt)															P1		Done
+B- screen sharing and other encouraging to share or GD												P2		Done
+C- English learning																					P3		
+D- Linkdin post																						P4		Done
+
+(20-Mar-2025)
+A- What is .tf file in terraform (chat gpt) understand												P0
+A- Terraform from starting to end reading															P1
+B- AZ-900 reading																					P2
+C- English reading from videos																		P3
+D- Linkdin post																						P4
+E- raise PE for the ring splitting																	P5
+
+(24-Mar-2025)
+A- AZ-900 reading																					P0
+B- Terraform from starting to end reading															P1
+C- English reading from videos																		P2
+D- Linkdin post																						P3
+E- AG1 PM requried																					P4
+
+(28-Mar-2025)
+A- Linux revision with command practice																P1
+B- Storage account 																					P2
+C- English reading from videos																		P3
+D- Linkdin post																						P4
+E- SFP & patchord patching required at AG1															P5
+
+(10-Apr-2025)
+A- Linux revision with command practice																P1
+B- Storage account practice																			P2
+C- English reading from videos																		P3
+D- Linkdin post																						P4
+
+
+(21-July-2025)
+A- Git revision with its questions																	P1
+B- Introdution preprations																			P2
+C- Azure cloud resources study																		P3
+D- Linkdin post																						P4
+
+
+(22-July-2025)
+A- Introdution prepare																				P1
+B- Interview questions																				P2
+C- Linkdin post																						P3
+D- Nuakri profile update																			P4
+
+(24-July-2025)
+A- Introdution prepare																				P1
+B- Interview questions of CI/CD																		P2
+C- Linkdin post																						P3
+D- Nuakri profile update																			P4
+E- Take followup of transport card from the FRT-CI Avinash											P5
+
+(14-Aug-2025)
+A- Load Balancers																					P1
+B- Types of Load balancers																			P2
+C- Interview questions prep on all types of LB														P3
+D- Linkdin post																						P4
