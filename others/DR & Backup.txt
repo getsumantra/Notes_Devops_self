@@ -1,0 +1,28 @@
+Desaster Recovery
+
+Disaster recovery (DR) in Azure uses Azure Site Recovery (ASR) to replicate applications and data from a primary location to a secondary one, 
+ensuring service continuity and data protection during outages or disasters. ASR orchestrates replication for Azure VMs to other regions, 
+and also supports replicating on-premises physical and virtual machines (VMs) to Azure for cloud-based DR
+
+How it works
+1. Replication: Azure Site Recovery replicates data from your primary environment to a secondary Azure region or datacenter. 
+2. Failover: If the primary site experiences an outage, operations are transferred (failed over) to the secondary site, which hosts the replicated workloads. 
+3. Failback: Once the primary site is restored and operational, workloads can be failed back to the original location. 
+
+Key components and concepts
+1. Azure Site Recovery (ASR): A Disaster Recovery as a Service (DRaaS) offering that orchestrates replication and failover. 
+2. Recovery Services Vault: A management container in Azure that stores data and settings for backup and Site Recovery services. 
+3. Recovery Point Objective (RPO): The maximum amount of data loss that a business can tolerate. 
+4. Recovery Time Objective (RTO): The maximum amount of time it takes to restore operations after a disaster. 
+
+Supported scenarios
+1. Azure to Azure: Replicating Azure VMs to a different Azure region. 
+2. On-premises to Azure: Replicating on-premises VMware, Hyper-V, or physical servers and VMs to Azure for DR. 
+3. Azure Stack to Azure: Replicating VMs from Azure Stack infrastructure to a secondary Azure site. 
+
+Steps to enable Azure to Azure disaster recovery
+1. Create a Recovery Services vault: In Azure, create a vault in a region other than your source region. 
+2. Select target region and resources: In the Azure portal, navigate to your VM and select the "Disaster Recovery" 
+option to choose your target region and other configuration settings. 
+3. Enable replication: Start the replication process to initiate the data copy to the target region. 
+4. Monitor and test: Monitor the replication status in the recovery services vault and perform test failovers to ensure your DR plan is effective. 
