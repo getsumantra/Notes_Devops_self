@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="u27rt9dpJjIRcXTcqcov">
+    <mxGraphModel dx="415" dy="225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GnJXnoYnbJwNSxvAsnQq-1" value="&lt;font&gt;Terraform&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="530" y="20" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GnJXnoYnbJwNSxvAsnQq-2" value="Terraform is a IAC tool, which supports multicloud functions&lt;div&gt;Use case: Resource creation, load balancing, database setup&lt;/div&gt;&lt;div&gt;It contains state file&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Commands: Terraform init&lt;/div&gt;&lt;div&gt;Terraform validate&lt;/div&gt;&lt;div&gt;Terraform fmt&lt;/div&gt;&lt;div&gt;Terraform plan&lt;/div&gt;&lt;div&gt;Terraform apply&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="50" width="360" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GnJXnoYnbJwNSxvAsnQq-3" value="Terraform Provider Setup (Azure)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="340" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
