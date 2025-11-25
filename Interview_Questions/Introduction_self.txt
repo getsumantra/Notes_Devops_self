@@ -1,0 +1,23 @@
+Thank you for giving me this opportunity.
+It’s my pleasure to introduce myself.
+My name is Sumantra Upadhyay. I completed my graduation from UPTU.
+I began my career as a IT Support and later moved into DevOps Engineering. Currently, I’m working as a DevOps Engineer at Reliance.
+I have total 9Y of experience in which 4Y is in DevOps.
+
+In my current project, where I manage Azure infrastructure using Terraform, provisioning resources like VNets, Subnets, and Virtual Machines. 
+I also configure and maintain CI/CD pipelines in Azure DevOps for smooth deployments and troubleshoot Terraform-related issues, 
+and have hands-on experience with Docker, Git, and CI/CD best practices. 
+If allowed, I’d be happy to explain my current project and day-to-day responsibilities.
+In my recent project titled “Zayo E-Commerce Cloud Migration,” I worked on migrating a monolithic e-commerce platform to a microservices architecture. 
+Our team had 20 members — 5 in DevOps and 15 in development. The frontend was built in React.js, the backend in Python, and we used Azure SQL for data storage.
+I am responsible for provisioning the entire cloud infrastructure using Terraform, which included AKS clusters, networking components, storage accounts, databases, 
+virtual machines, and Key Vaults.
+Our architecture was aligned with Azure’s best practices using the landing zone approach. We segregated the environment into Dev, QA, and Prod, 
+each with its own subscription under a management group. To ensure code reusability and modularization, we followed a parent-child module structure 
+in Terraform — separating environment-level and module-level code into dedicated folders.
+For secure and scalable access, we used Application Gateway with a Web Application Firewall (WAF), custom domains, and SSL certificates. 
+The entire infrastructure is managed via Terraform modules, with well-structured repositories for each environment.
+We containerized all the services using Docker and stored the images in Azure Container Registry (ACR). I also built CI/CD pipelines in Azure DevOps, 
+which handled automated testing, Docker builds, security scans, and deployment to Azure Kubernetes Service (AKS). 
+We followed CI/CD best practices such as Git-based version control, pull request reviews, and secret management through Azure Key Vault.
+For observability, we integrated Prometheus, Grafana, and Azure Monitor, and configured alerts for failures and performance issues
